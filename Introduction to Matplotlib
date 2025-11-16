@@ -1,0 +1,16 @@
+# %% [markdown]
+# Matplotlib:
+# - is a Python library used for data visualization i.e. it turns raw data into graphs and charts
+# - also used to visualize data patterns, model performance and results
+# making it easier to understand, debug, and present machine learning workflows.
+# 
+# Pyplot - is the module inside matplotlib used to provide a MATLAB-kind of interface for making plots.
+
+# %% [code] {"execution":{"iopub.status.busy":"2025-11-16T02:06:18.048328Z","iopub.execute_input":"2025-11-16T02:06:18.049409Z","iopub.status.idle":"2025-11-16T02:06:18.236894Z","shell.execute_reply.started":"2025-11-16T02:06:18.049374Z","shell.execute_reply":"2025-11-16T02:06:18.236076Z"}}
+#plotting a simple straight line
+import matplotlib.pyplot as plt
+x=[10,20,30,40,50]
+y=[100,200,300,400,500]
+plt.plot(x,y)
+plt.title("a simple straight line")
+plt.show()
